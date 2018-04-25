@@ -10,5 +10,7 @@ python:
   - "3.6"
   - "3.7-dev" # 3.7 development branch
 
+# command to run tests
+script: "python simple_tests.py"
 
 
