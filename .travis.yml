@@ -14,7 +14,7 @@ notifications:
   email:
     recipients:
       - trinklelizor@gmail.com
-    on_success: always # default: change
+    on_success: never # default: change
     on_failure: always
 # command to run tests
 script: "python simple_tests.py"
